@@ -1,5 +1,10 @@
 ---
 layout: layout-base.njk
-titre: "Test pages-CMS"
+eleventyComputed:
+    titre:  "{{ page.accueil.titre }}"
+    subtitle: "{{ page.accueil.description }}"
 ---
-contenu en dur
+
+<p>{{page.accueil.titre}} - ({{titre}})</p>
+
+<p>{{page.accueil.description}}</p>

@@ -6,6 +6,9 @@
 </head>
 <body>
     <h1>{{titre}}</h1>
+    {% if subtitle %}
+        <h2>{{subtitle}}</h2>
+    {% endif %}
     {{content | safe}}
 </body>
 </html>
