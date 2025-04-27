@@ -13,4 +13,6 @@ content:
       - name: description
         label: Description de la page
         type: string
-        description: Lorem Ipsum
+        description: 160 caractère maximum
+        options:
+          maxlength: 200
