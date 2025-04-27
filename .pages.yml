@@ -10,3 +10,7 @@ content:
       - name: titre
         label: Titre
         type: string
+      - name: description
+        label: Description de la page
+        type: string
+        description: Lorem Ipsum
