@@ -13,6 +13,4 @@ content:
       - name: description
         label: Description de la page
         type: string
-        description: 160 caractère maximum
-        options:
-          maxlength: 200
+        description: 160 caractères recommandé
