@@ -1,0 +1,3 @@
+media:
+  input: sources/media
+  output: _site/media
