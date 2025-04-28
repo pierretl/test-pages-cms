@@ -14,3 +14,11 @@ content:
         label: Description de la page
         type: string
         description: 160 caractères recommandé
+      - name: list
+        label: Liste non ordonnée
+        type: collection
+        fields: 
+          - name : labal
+            label : Intitulé
+            type : string
+          
