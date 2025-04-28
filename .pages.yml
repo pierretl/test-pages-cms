@@ -16,7 +16,7 @@ content:
         description: 160 caractères recommandé
       - name: list
         label: Liste non ordonnée
-        type: collection
+        type: object
         fields: 
           - name : labal
             label : Intitulé
