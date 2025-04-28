@@ -25,6 +25,7 @@ content:
     label: Accueil liste
     type: collection
     path: sources/_data/page/accueilListe.json
+    subfolders: false
     fields:
       - name: labal
         label: Intitulé
