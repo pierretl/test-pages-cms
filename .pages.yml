@@ -21,4 +21,11 @@ content:
           - name : labal
             label : Intitulé
             type : string
-          
+  - name: accueilListe
+    label: Accueil liste
+    type: collection
+    path: sources/_data/page/accueilListe.json
+    fields:
+      - name: labal
+        label: Intitulé
+        type: string
