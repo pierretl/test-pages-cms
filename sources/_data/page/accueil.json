@@ -1,7 +1,15 @@
 {
   "titre": "titre via le cms",
   "description": "description de la page",
-  "list": {
-    "labal": "lno i"
-  }
+  "list": [
+    {
+      "labal": "test A"
+    },
+    {
+      "labal": "bbb"
+    },
+    {
+      "labal": "3333"
+    }
+  ]
 }
