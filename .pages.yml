@@ -25,6 +25,7 @@ content:
   - name: accueilListe
     label: Accueil liste
     type: collection
+    list: true
     path: sources/_data/page/accueilListe.json
     fields:
       - name: labal
