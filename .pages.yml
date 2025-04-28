@@ -17,6 +17,7 @@ content:
       - name: list
         label: Liste non ordonnée
         type: object
+        list: true
         fields: 
           - name : labal
             label : Intitulé
@@ -25,7 +26,6 @@ content:
     label: Accueil liste
     type: collection
     path: sources/_data/page/accueilListe.json
-    subfolders: false
     fields:
       - name: labal
         label: Intitulé
