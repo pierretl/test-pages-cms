@@ -25,5 +25,6 @@
     "Sports",
     "Test"
   ],
-  "body": "<p>test</p>"
+  "body": "<p>test</p>",
+  "featured_post": "sources/_data/layout/2025-04-29-footer.md"
 }
