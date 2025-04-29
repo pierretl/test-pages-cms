@@ -30,6 +30,13 @@ content:
               - name : bullet
                 label : Intitulé
                 type : string
+      - name: tags
+        label: Tags
+        type: select
+        options:
+          creatable: true
+          multiple: true
+          values: [ Tech, News, Sports ]
   - name: accueilListe
     label: Accueil liste
     type: collection
