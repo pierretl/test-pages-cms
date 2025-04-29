@@ -3,7 +3,15 @@
   "description": "description de la page",
   "list": [
     {
-      "labal": "test A"
+      "labal": "test A",
+      "objectTypeList": [
+        {
+          "bullet": "test"
+        },
+        {
+          "bullet": "test2"
+        }
+      ]
     },
     {
       "labal": "bbb"
