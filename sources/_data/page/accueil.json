@@ -24,5 +24,6 @@
     "News",
     "Sports",
     "Test"
-  ]
+  ],
+  "body": "<p>test</p>"
 }
