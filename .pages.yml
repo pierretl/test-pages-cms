@@ -46,7 +46,7 @@ content:
         label: Featured Post
         type: reference
         options:
-          collection: accueilListe
+          collection: layout
   - name: accueilListe
     label: Accueil liste
     type: collection
