@@ -56,3 +56,13 @@ content:
       - name: labal
         label: Intitulé
         type: string
+  - name: layout
+    label: Layout
+    type: collection
+    path: sources/_data/layout
+    fields:
+      - name: body
+        label: Body
+        type: code
+        options:
+          language: html
