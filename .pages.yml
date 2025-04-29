@@ -22,6 +22,14 @@ content:
           - name : labal
             label : Intitulé
             type : string
+          - name : objectTypeList
+            label : list
+            type : object
+            list: true
+            fields: 
+              - name : bullet
+                label : Intitulé
+                type : string
   - name: accueilListe
     label: Accueil liste
     type: collection
