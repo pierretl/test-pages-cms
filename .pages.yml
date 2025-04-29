@@ -42,6 +42,11 @@ content:
         type: code
         options:
           language: html
+      - name: featured_post
+        label: Featured Post
+        type: reference
+        options:
+          collection: posts
   - name: accueilListe
     label: Accueil liste
     type: collection
