@@ -37,6 +37,11 @@ content:
           creatable: true
           multiple: true
           values: [ Tech, News, Sports ]
+      - name: body
+        label: Body
+        type: code
+        options:
+          language: html
   - name: accueilListe
     label: Accueil liste
     type: collection
