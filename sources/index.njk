@@ -5,6 +5,60 @@ eleventyComputed:
     subtitle: "{{ page.accueil.description }}"
 ---
 
+<p>Pages CMS : <a href="https://app.pagescms.org/pierretl/test-pages-cms/main">https://app.pagescms.org/pierretl/test-pages-cms/main</a></p>
+
+<h2>Rendu data</h2>
+
 <p>{{page.accueil.titre}} - ({{titre}})</p>
 
 <p>{{page.accueil.description}}</p>
+
+<ul>
+    {% for item in page.accueil.list %}
+        <li>
+            {{ item.labal }}
+            {% if item.objectTypeList %}
+                <ul>
+                    {% for li in item.objectTypeList %}
+                        <li>{{ li.bullet }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif%}
+        </li>
+    {% endfor %}
+</ul>
+
+<ul>
+    {% for item in page.accueil.tags %}
+        <li>{{ item }}</li>
+    {% endfor %}
+</ul>
+
+<h2>Rendu HTML</h2>
+
+{{ page.accueil.body | safe }}
+
+<h2>Rendu d'un fichier md</h2>
+
+<h3>Static</h3>
+
+{% renderFile "./sources/_data/layout/2025-04-29-header.md" %}
+
+<h3>dynamic</h3>
+
+{% if page.accueil.featured_post %}
+    {% renderFile page.accueil.featured_post %}
+{% endif %}
+
+
+<h2>Rendu d'un fichier md - content only</h2>
+
+<h3>Static</h3>
+
+ {% set content = './sources/_data/layout/2025-04-29-header.md' | contentOnly %}
+<div>{{ content | safe }}</div>
+
+<h3>dynamic</h3>
+
+ {% set content = page.accueil.featured_post | contentOnly %}
+<div>{{ content | safe }}</div>
